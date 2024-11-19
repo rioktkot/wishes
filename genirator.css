@@ -1,0 +1,67 @@
+@import url(fonts/fonts.css);
+:root{
+    --text-color: #6FE4FF;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'StratosSkyeng', sans-serif;
+}
+body{
+    background-color: #f2f2f2;
+    background-image: url(images/background.png);
+    background-repeat: no-repeat;
+}
+.main{
+    max-width: 1050;
+    margin: 0 auto;
+    margin-top: 105px;
+    text-align: center;
+}
+.main_title{
+    color: var(--text-color);
+    font-size: 85px;
+    line-height: 0.95;
+    font-weight: 400;
+}
+.main_button{
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: 85px;
+    padding: 15px 30px;
+    background-color: black;
+    color: var(--text-color);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 1px 2px 5px var(--text-color),
+            1px 2px 4px 5px var(--text-color),
+            2px 4px 8px 5px var(--text-color),
+            2px 4px 16px 5px var(--text-color),
+            0px 1px 2px 5px var(--text-color),
+            1px 2px 4px 5px var(--text-color),
+            2px 4px 8px 5px var(--text-color),
+            2px 4px 16px 5px var(--text-color),
+            0px 1px 2px 5px var(--text-color),
+            1px 2px 4px 5px var(--text-color),
+            2px 4px 8px 5px var(--text-color),
+            2px 4px 16px 5px var(--text-color),
+            0px 1px 2px 5px var(--text-color),
+            1px 2px 4px 5px var(--text-color),
+            2px 4px 8px 5px var(--text-color),
+            2px 4px 16px 5px var(--text-color);
+}
+/* .main_button:hover{
+    opacity: ;
+} */
+.main_quote{
+    color: var(--text-color);
+    font-size: 35px;
+}
+img{
+    width: 10%;
+    height: 10%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
